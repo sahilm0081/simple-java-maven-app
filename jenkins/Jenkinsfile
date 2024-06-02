@@ -16,7 +16,7 @@ pipeline {
                 }
             }
         }
-        stage('Going to Deliver') {
+        stage('Going to Deliver 1') {
             steps {
                 echo 'I m running deliver stage now'
             }
