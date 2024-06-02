@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Going to Deliver 1') {
             steps {
-                echo 'I m running deliver stage now'
+                echo 'I m running deliver stage now in pipleline branch'
             }
         }
         stage('Deliver') {
